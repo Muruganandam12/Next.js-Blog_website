@@ -1,11 +1,10 @@
 import Image from "next/image";
-
 export default function Home() {
   return ( 
     <>
        <main className="container mx-auto px-4 py-6">
       <h2 className="text-4xl font-bold mb-4">Welcome to Our Blog</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Here you can the latest articles</p>
     </main>
      <div className="flex justify-end px-4">
      <input type="text" className="px-4 py-2 border border-gray-300 rounded-md" placeholder="Search..." />
@@ -28,7 +27,7 @@ export default function Home() {
           <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         
-    </div>
+    </div> 
     </>
   )
  
